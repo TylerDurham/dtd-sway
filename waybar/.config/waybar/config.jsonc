@@ -20,11 +20,11 @@
         "idle_inhibitor",
         "network",
         "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
+        // "cpu",                 // Uncomment to use this widget.
+        // "memory",              // Uncomment to use this widget.
+        // "temperature",         // Uncomment to use this widget.
         "backlight",
-        // "sway/language",
+        // "sway/language",       // Uncomment to use this widget.
         "battery",
         "clock",
         "tray"
