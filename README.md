@@ -1,5 +1,6 @@
 # sway
-My sway window manager config. 
+
+My sway window manager config, based on the [Catppuccin] theme. Includes themeing for [Waybar]. 
 
 # Installation
 
@@ -31,3 +32,5 @@ rm ~/.config/waybar
 
 [GNU]: https://www.gnu.org/
 [stow]: https://www.gnu.org/software/stow/
+[Catppuccin]: https://catppuccin.com/
+[Waybar]: https://github.com/Alexays/Waybar 
