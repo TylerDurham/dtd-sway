@@ -20,5 +20,14 @@ stow -S sway -t ~/
 stow -S waybar -t ~/
 ```
 
+# Uninstall
+
+To uninstall, symply remove the symbolic links in your `~/.config` directory.
+
+``` sh
+rm ~/.config/sway
+rm ~/.config/waybar
+```
+
 [GNU]: https://www.gnu.org/
 [stow]: https://www.gnu.org/software/stow/
