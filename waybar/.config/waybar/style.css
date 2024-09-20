@@ -71,12 +71,19 @@ window#waybar {
   background-color: #FFCC00;
 }
 
-#network:last-child {
-  padding-right: 10px;
+#network {
+  padding-right: 15px;
+  background-color: @thm-blue;
+  color: @thm-bg;
 }
 
 /* #################################################### */
-/* PULSE AUDIO WIDGET   */
+/* IDLE INHIBITOR WIDGET */
+#idle_inhibitor {
+  background-color: @thm-gray;
+  color: @thm-fg;
+}
+
 #idle_inhibitor.activated {
   background-color: @thm-green;
   color: @thm-bg;
