@@ -14,7 +14,7 @@ Clone the repo to your $HOME directory. Use the [GNU] [stow] utility to setup sy
 ``` sh
 git clone https://github.com/TylerDurham/dtd-sway.git
 
-cd ~/dtd-sway
+cd dtd-sway
 
 stow -S sway -t ~/
 stow -S waybar -t ~/
