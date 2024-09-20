@@ -10,7 +10,7 @@ Clone the repo to your system. Move the `sway` and `waybar` directories to your 
 
 ## Local Development
 
-Clone the repo to your $HOME directory. Use the [GNU] [stow] utility to setup symbolic links in your `~/.config` directory. 
+Clone the repo to your favorite local `development` directory. Use the [GNU] [stow] utility to setup symbolic links in your `~/.config` directory. 
 
 ``` sh
 git clone https://github.com/TylerDurham/dtd-sway.git
