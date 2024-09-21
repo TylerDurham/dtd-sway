@@ -64,6 +64,11 @@ window#waybar {
   border-radius: 20px 0px 0px 20px;
 }
 
+#clock {
+  background-color: @thm-pink;
+  color: @thm-bg;
+}
+
 #keyboard {}
 
 /* TODO: Need to compile waybar with MPD support to get this to work */
