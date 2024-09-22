@@ -231,7 +231,7 @@ include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "
 # My stuff
 ###################################################################
 
-font pango:FiraCode 14
+font pango:FiraCode 12
 gaps outer 15px
 gaps inner 15px
 
@@ -266,12 +266,12 @@ set $mauve #7287fd
 
 set $tf $base
 set $tu $surface0
-set $pop $mauve
+set $pop $yellow
 
 # target                 title     bg    text   indicator  border
-client.focused           $base     $base $pop   $rosewater $base
-client.focused_inactive  $overlay0 $base $pop   $rosewater $overlay0
-client.unfocused         $tu       $tu   $text  $rosewater $base
+client.focused           $base     $base $pop   $blue      $base
+client.focused_inactive  $overlay0 $base $pop   $overlay0  $overlay0
+client.unfocused         $tu       $tu   $text  $overlay0  $base
 client.urgent            $peach    $base $peach $overlay0  $peach
 client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
 client.background        $base
