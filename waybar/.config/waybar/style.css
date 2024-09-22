@@ -64,6 +64,15 @@ window#waybar {
   border-radius: 20px 0px 0px 20px;
 }
 
+#battery {
+  background-color: @thm-orange;
+  color: @thm-bg;
+}
+
+#tray {
+  background-color: transparent;
+}
+
 #clock {
   background-color: @thm-pink;
   color: @thm-bg;
