@@ -2,6 +2,8 @@
 
 My sway window manager config, based on the [Catppuccin] `mocha` theme. Includes themeing for [Waybar]. 
 
+![A screenshot of the sway theme](https://github.com/TylerDurham/dtd-sway/blob/main/media/screenshot1.png?raw=true)
+
 # Installation
 
 ## Basic Way
