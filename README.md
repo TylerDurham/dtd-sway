@@ -17,8 +17,7 @@ git clone https://github.com/TylerDurham/dtd-sway.git
 
 cd dtd-sway
 
-stow -S sway -t ~/
-stow -S waybar -t ~/
+stow . -t ~/
 ```
 
 # Uninstall
@@ -28,6 +27,7 @@ To uninstall, symply remove the symbolic links in your `~/.config` directory.
 ``` sh
 rm ~/.config/sway
 rm ~/.config/waybar
+rm ~/.config/swaynag
 ```
 
 [GNU]: https://www.gnu.org/
