@@ -2,4 +2,6 @@
 
 focused_window="$(swaymsg -t get_tree | jq -r '.nodes[] | select([recurse(.nodes[]?, .floating_nodes[]?) | .focused] | any) | .name')"
 
-grim -o $focused_window
+filename=$(xdg-user-dir PICTURES)/$(date +'GRIM-SCREENSHOT_%s.png')
+
+grim -o $focused_window $filename
