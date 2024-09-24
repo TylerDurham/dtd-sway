@@ -4,7 +4,7 @@ My sway window manager config, based on the [Catppuccin] `mocha` theme. Includes
 
 # Features
 
-- Catpuccin Mocha theme configured for `swaymsg`, `swaynag`, `sway`, `rofi`, `waybar`.
+- Catpuccin Mocha theme configured for `swaymsg`, `swaynag`, `sway`, `rofi`, `waybar`, and `dunst`.
 - Screenshot script & keybindings.
 
 ![A screenshot of the sway theme](https://github.com/TylerDurham/dtd-sway/blob/main/media/screenshot1.png?raw=true)
@@ -13,7 +13,7 @@ My sway window manager config, based on the [Catppuccin] `mocha` theme. Includes
 
 ## Basic Way
 
-Clone the repo to your system. Move the `sway` and `waybar` directories to your `~/.config` directory.
+Clone the repo to your system. Run the `install.sh` script. This will copy key directories (`sway`, `roki`, `waybar`, etc.) into your `~/.config` directory.
 
 ## Local Development
 
@@ -29,7 +29,7 @@ stow . -t ~/
 
 # Uninstall
 
-To uninstall, symply remove the symbolic links in your `~/.config` directory.
+To uninstall, symply remove the symbolic links in your `~/.config` directory or run the `uninstall.sh` script.
 
 ``` sh
 rm ~/.config/sway
