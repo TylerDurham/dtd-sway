@@ -1,4 +1,4 @@
-# sway
+# dtd-sway
 
 My sway window manager config, based on the [Catppuccin] `mocha` theme. Includes themeing for [Waybar]. 
 
