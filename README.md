@@ -2,6 +2,11 @@
 
 My sway window manager config, based on the [Catppuccin] `mocha` theme. Includes themeing for [Waybar]. 
 
+# Features
+
+- Catpuccin Mocha theme configured for `swaymsg`, `swaynag`, `sway`, `rofi`, `waybar`.
+- Screenshot script & keybindings.
+
 ![A screenshot of the sway theme](https://github.com/TylerDurham/dtd-sway/blob/main/media/screenshot1.png?raw=true)
 
 # Installation
@@ -30,6 +35,8 @@ To uninstall, symply remove the symbolic links in your `~/.config` directory.
 rm ~/.config/sway
 rm ~/.config/waybar
 rm ~/.config/swaynag
+rm ~/.config/rofi
+rm ~/.config/dunst
 ```
 
 [GNU]: https://www.gnu.org/
