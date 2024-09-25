@@ -5,3 +5,14 @@ focused_window="$(swaymsg -t get_tree | jq -r '.nodes[] | select([recurse(.nodes
 filename=$(xdg-user-dir PICTURES)/$(date +'GRIM-SCREENSHOT_%s.png')
 
 grim -o $focused_window $filename
+icon=$HOME/.local/share/icons/dunst/camera-photo.svg
+action=$(dunstify -i $icon -a "Screenshot" "SCREENSHOT" "Screenshot taken and placed at '<i>$filename</i>'." --action=default,Open --action=delete,Delete)
+
+case "$action" in
+  "default")
+    xdg-open $filename
+    ;;
+
+  "delete")
+    rm $filename
+esac
