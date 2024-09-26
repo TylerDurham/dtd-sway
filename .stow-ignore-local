@@ -1,3 +1,4 @@
+.stow-ignore-local
 install.sh
 uninstall.sh
 README.md
