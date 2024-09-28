@@ -232,8 +232,8 @@ include '$(/usr/libexec/sway/layered-include "/usr/share/sway/config.d/*.conf" "
 ###################################################################
 
 font pango:FiraCode 12
-gaps outer 15px
-gaps inner 15px
+gaps outer 10px
+gaps inner 10px
 
 # Colors TODO: Need to move this to a seperate file.
 set $rosewater #f5e0dc
